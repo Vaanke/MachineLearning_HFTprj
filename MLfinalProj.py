@@ -16,21 +16,7 @@ from sklearn.feature_selection import SelectFromModel
 import warnings
 warnings.filterwarnings("ignore")
 
-'''
-import your package here
 
-【注意一下两点】
-1.  MLfinalProj_test.ipynb 是对我们的类进行的示范。
-    大家可以随意修改这个文件参数，自己写好ml函数之后试试  
-
-2.  如果对文档（任何文件）有任何改动，请务必 
-    1.将文件夹名字进行更改 
-    2. 在日志（log.txt）中简单写下做的事情。 （简单写写就行～）
-  
-  - 文件夹名命名规范为：mlfinalproject_Name_Month.date.hours.minutes
-  - 例如  "mlfinalproject_Deyang_Nov.30.15.15.07" 表示德扬在11月30下午3.17进行修改
-  - 日志写法按照log中的写就行  （请简单写写）
-'''
 
 
 class MLproj:
