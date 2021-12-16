@@ -1,0 +1,18 @@
+
+Deyang_Nov.30.15.07 
+1.完成基本框架，定义主要函数，参数
+2.简单在MLfinalProj_test中调试，输出pnl曲线图像，准确率函数测试等
+
+Wenqing_Nov.30.19.52
+1.完成函数predictor_Logistics
+2.函数backtestor_accuracy最后一行是手动计算的accuracy的吗？我换了下sklearn.metrics里的accuracy_score函数，也可以跑，答案是一样的。
+3.新建了函数backtestor_Pnlcurves(self,pre,name)用来对比多条PL曲线，但是这个函数的输入参数需要改动ML预测函数的return，即return self.pred_array。notebook里的ln[4]有使用演示。
+
+Yuhao_Dec.12.17.18
+1. 修改了decay函数的窗口，使其能够完成所有预测信号的decay曲线绘制
+2. 新增feature_selection函数，使用了极端随机树分类器进行特征选择，优化了GBDT分类器的结果
+
+Deyang_Dec.15.16.19
+1. 修改了PNL图，当前所有图都是从1开始
+2. 修改了Sharpe Ratio的算法
+3. 优化了SVM图
